@@ -1,0 +1,55 @@
+/* Basic Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #0f172a;
+  color: #fff;
+  transition: 0.3s ease;
+}
+
+.clock-container {
+  text-align: center;
+}
+
+.clock {
+  font-size: 4rem;
+  font-weight: 600;
+  letter-spacing: 3px;
+  margin-top: 20px;
+}
+
+button {
+  margin-top: 30px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #2563eb;
+  color: white;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+/* Light Theme */
+.light {
+  background-color: #f8fafc;
+  color: #0f172a;
+}
+
+.light button {
+  background-color: #0f172a;
+  color: #f8fafc;
+}
