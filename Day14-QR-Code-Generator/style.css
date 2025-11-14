@@ -1,0 +1,56 @@
+body {
+  background: linear-gradient(135deg, #4f81ff, #6dd5fa, #8ee4af);
+  height: 100vh;
+  margin: 0;
+  font-family: Poppins, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: #ffffffc7;
+  padding: 25px;
+  width: 350px;
+  border-radius: 18px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 8px;
+  border: 1px solid #aaa;
+  outline: none;
+}
+
+button {
+  margin-top: 12px;
+  padding: 10px 20px;
+  background: #4f81ff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #3a67d8;
+}
+
+#qrBox {
+  margin-top: 20px;
+}
+
+#downloadBtn {
+  margin-top: 12px;
+  display: block;
+  padding: 10px 20px;
+  background: #111;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+}
